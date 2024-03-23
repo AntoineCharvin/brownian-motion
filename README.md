@@ -22,13 +22,11 @@ Before running this application, you will need Python installed on your system a
 pip install pygame PyOpenGL numpy
 ```
 ## How to Use
-
-    -Once the simulation starts, it will automatically progress through the time steps, visualizing the particles' movement in 3D.
-    -The simulation window will display the particles moving in real-time.
-    -The simulation can be exited at any time by closing the Pygame window.
+-Once the simulation starts, it will automatically progress through the time steps, visualizing the particles' movement in 3D.
+-The simulation window will display the particles moving in real-time.
+-The simulation can be exited at any time by closing the Pygame window.
 
 ## Simulation Details
-
-    -The simulation initializes 500 particles with random initial positions.
-    -Each particle undergoes Brownian motion, simulated over 10,000 time steps.
-    -The simulation uses a simple Euler-Maruyama method to update particle positions based on their drift and volatility.
+-The simulation initializes 500 particles with random initial positions.
+-Each particle undergoes Brownian motion, simulated over 10,000 time steps.
+-The simulation uses a simple Euler-Maruyama method to update particle positions based on their drift and volatility.
