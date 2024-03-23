@@ -1,4 +1,4 @@
-# brownian-motion
+ # brownian-motion
 # 3D Brownian Motion Simulation with Pygame and OpenGL
 
 This Python application simulates and visualizes the Brownian motion of particles in a 3D space using Pygame and OpenGL. The Brownian motion is a random motion of particles suspended in a fluid (liquid or gas), as they collide with other fast-moving molecules in the fluid.
@@ -27,6 +27,6 @@ pip install pygame PyOpenGL numpy
 - The simulation can be exited at any time by closing the Pygame window.
 
 ## Simulation Details
--The simulation initializes 500 particles with random initial positions.
--Each particle undergoes Brownian motion, simulated over 10,000 time steps.
--The simulation uses a simple Euler-Maruyama method to update particle positions based on their drift and volatility.
+- The simulation initializes 500 particles with random initial positions.
+- Each particle undergoes Brownian motion, simulated over 10,000 time steps.
+- The simulation uses a simple Euler-Maruyama method to update particle positions based on their drift and volatility.
